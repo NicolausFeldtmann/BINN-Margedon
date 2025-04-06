@@ -1,7 +1,7 @@
-function cardFrontTemplate(typName, pic, M, APL, GA, BF, SV, W) {
+function cardFrontTemplate(id, typName, pic, M, APL, GA, BF, SV, W) {
 
     return `
-        <div class="thumbNail">
+        <div class="thumbNail" data-id="${id}" onclick="renderCardWeapons(${id})">
             <div class="thumbPicArea">
                 <img class="thumbPic" src="${pic}"> 
             </div> 
@@ -34,4 +34,90 @@ function cardFrontTemplate(typName, pic, M, APL, GA, BF, SV, W) {
         </div>
     `;
 };
+
+function cardDetailsTemplate(waepPic1, waepPic2, waepPic3, waepPic4, waepPic5, waepPic6, waepPic7, waepPic8, waepPic9, waepPic10, weap1, weap2, weap3, weap4, weap5, weap6, weap7, weap8, weap9, weap10) {
+
+    return `
+        <div class="cardDetails">
+            <table class="waeponTable">
+                <tr>
+                    <th>NAME</th>
+                    <th>A</th>
+                    <th>BS/WS</th>
+                    <th>D</th>
+                </tr>
+                <tr>
+                    <td>${waepPic1}</td>
+                    <td>${weap1}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic2}</td>
+                    <td>${weap2}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic3}</td>
+                    <td>${weap3}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic4}</td>
+                    <td>${weap4}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic5}</td>
+                    <td>${weap5}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic6}</td>
+                    <td>${weap6}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic7}</td>
+                    <td>${weap7}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic8}</td>
+                    <td>${weap8}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic9}</td>
+                    <td>${weap8}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                                <tr>
+                    <td>${waepPic10}</td>
+                    <td>${weap10}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    `;
+}; 
 
