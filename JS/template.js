@@ -41,76 +41,77 @@ function cardDetailsTemplate(waepPic1, waepPic2, waepPic3, waepPic4, waepPic5, w
         <div class="cardDetails">
             <table class="waeponTable">
                 <tr>
+                    <th></th>
                     <th>NAME</th>
                     <th>A</th>
                     <th>BS/WS</th>
                     <th>D</th>
                 </tr>
-                <tr>
-                    <td>${waepPic1}</td>
+                <tr class="white">
+                    <td><img class="rowIcon" src="${waepPic1}"></td>
                     <td>${weap1}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic2}</td>
+                <tr class="lightGrey">
+                    <td><img class="rowIcon" src="${waepPic2}"></td>
                     <td>${weap2}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic3}</td>
+                <trclass="white">
+                    <td><img class="rowIcon" src="${waepPic3}"></td>
                     <td>${weap3}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic4}</td>
+                <tr class="lightGrey">
+                    <td><img class="rowIcon" src="${waepPic4}"></td>
                     <td>${weap4}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic5}</td>
+                <trclass="white">
+                    <td><img class="rowIcon" src="${waepPic5}"></td>
                     <td>${weap5}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic6}</td>
+                <tr class="lightGrey">
+                    <td><img class="rowIcon" src="${waepPic6}"></td>
                     <td>${weap6}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic7}</td>
+                <tr class="white">
+                    <td><img class="rowIcon" src="${waepPic7}"></td>
                     <td>${weap7}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic8}</td>
+                <tr class="lightGrey">
+                    <td><img class="rowIcon" src="${waepPic8}"></td>
                     <td>${weap8}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic9}</td>
+                <tr class="white">
+                    <td><img class="rowIcon" src="${waepPic9}"></td>
                     <td>${weap8}</td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-                                <tr>
-                    <td>${waepPic10}</td>
+                <tr class="lightGrey">
+                    <td><img class="rowIcon" src="${waepPic10}"></td>
                     <td>${weap10}</td>
                     <td></td>
                     <td></td>

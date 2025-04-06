@@ -108,3 +108,15 @@ h2{
 .number2{
     padding: 0px 56px 0px 56px;
 }
+
+.rowIcon{
+    width: 12px;
+}
+
+th{
+    background-color: gray;
+}
+
+.lightGrey{
+    background-color: lightgrey;
+}
