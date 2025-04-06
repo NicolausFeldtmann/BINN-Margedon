@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: "Bebas Neue";
+}
+
+aside{
+    display: none;
+    opacity: 1;
+    background-color: orange;
+    position: static;
+    flex-direction: column;
+    height: 100vh;
+    width: 224px;
+}
+
+nav{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linkArea{
+    display: flex;
+    align-items: center;
+}
+
+.navLink{
+    color: white;
+    text-decoration: none;
+}
+
+.seperator{
+    width: 2px;
+    height: 24px;
+    background-color: gray;
+    margin: 0px 8px 0px 8px;
+}
+
+.icon{
+    width: 34px;
+    margin: 0px 8px 0px 8px;
+}
+
+.show{
+    display: flex;
+    opacity: 1;
+}

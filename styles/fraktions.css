@@ -1,0 +1,110 @@
+
+nav{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contentArea {
+    display: flex;
+    margin: 24px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px grey;
+    width: 75%;
+}
+
+.thumbNail{
+    display: flex;
+    height: 188px;
+    margin: 24px 8px 24px 8px;
+    border: solid 2px red;
+}
+
+.thumbNameArea{
+    background-color: rgb(26, 25, 25);
+    width: 50%;
+}
+
+h2{
+    color: white;
+    width: 300px;
+    font-size: 32px;
+    margin: 12px 0px 0px 12px
+}
+
+.thumbPicArea{
+    display: flex;
+    justify-content: center;
+    width: 73%;
+    position: absolute;
+}
+
+.thumbPic{
+    width: 200px; 
+    height: 200px; 
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.thumbInfoArea{
+    width: 50%;
+    font-size: 34px;
+}
+
+.infoRow1{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: orange;
+    padding: 0px 18px 0px 0px;
+}
+
+.infoRow2{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 18px 0px 0px;
+}
+
+.infoRow3{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: orange;
+    padding: 0px 0px 0px 0px;
+}
+
+.infoRow4{
+    height: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.letter1{
+    padding: 0px 28px 0px 28px;
+}
+
+.number1{
+    padding: 0px 40px 0px 40px;
+}
+
+.letter2{
+    padding: 0px 48px 0px 48px;
+}
+
+.number2{
+    padding: 0px 56px 0px 56px;
+}
