@@ -17,7 +17,8 @@ nav{
 .content{
     display: flex;
     flex-direction: column;
-    border: solid 3px grey;
+    border: solid 2px grey;
+    border-radius: 10px;
     width: 75%;
 }
 
@@ -25,7 +26,7 @@ nav{
     display: flex;
     height: 188px;
     margin: 24px 8px 24px 8px;
-    border: solid 2px red;
+    border-radius: 10px;
 }
 
 .thumbNameArea{

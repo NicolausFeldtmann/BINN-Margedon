@@ -47,3 +47,19 @@ nav{
     display: flex;
     opacity: 1;
 }
+
+.contentMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoScreen{
+    font-family: "Jacquard 12";
+    border-radius: 10px;
+    width: 360px;
+    background-color: rgb(54, 53, 53);
+    color: green;
+    padding: 16px 16px 16px 16px;
+    margin: 24px 24px 24px 24px;
+}
