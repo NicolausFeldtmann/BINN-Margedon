@@ -3,6 +3,14 @@ body{
     font-family: "Bebas Neue";
 }
 
+h2{
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 300;
+}
+
 aside{
     display: none;
     opacity: 1;
@@ -55,7 +63,7 @@ nav{
 }
 
 .infoScreen{
-    font-family: "Jacquard 12";
+    font-family: "Jacquarda Bastarda 9 Charted";
     border-radius: 10px;
     width: 360px;
     background-color: rgb(54, 53, 53);
